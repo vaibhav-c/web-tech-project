@@ -1,0 +1,77 @@
+.container-fluid.px-1.px-md-4.py-5.mx-auto {
+    padding-top: 0rem!important;
+}
+  
+.rec.rec-arrow:enabled {
+    color: whitesmoke;
+    background-color: black;
+}
+  
+.rec.rec-arrow:disabled {
+    visibility: hidden;
+}
+  
+.cGKbZh:hover:enabled, .cGKbZh:focus:enabled {
+    color: whitesmoke;
+    background-color: transparent;
+}
+  
+.rec.rec-arrow:hover:enabled {
+    color:whitesmoke;
+    background-color: transparent;
+}
+  
+.rec.rec-arrow:focus:enabled {
+    color:whitesmoke;
+    background-color: transparent;
+}
+  
+.rec-carousel-item:focus {
+    background-color: transparent;
+    color: whitesmoke;
+    outline: none;
+    box-shadow: inset 0 0 1px 1px lightgrey;
+}
+
+button.rec.rec-dot:hover, .rec.rec-dot:active, .rec.rec-dot:focus {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 1px 3px rgb(255 255 0)!important;
+}
+
+button.rec.rec-dot.rec-dot_active {
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 1px 3px rgb(255 255 0)!important;
+}  
+
+button.rec.rec-dot {
+    color: black;
+    border-color: black!important;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.py-5 {
+    padding-bottom: 1rem!important;
+}
+
+.btn.btn-primary.me-7 {
+    margin-top: 1%;
+    background-color: transparent;
+    color: black;
+    background-color: yellow;
+    border-color: black;
+}
+
+.btn.btn-primary.me-7:hover {
+    background-color: lightseagreen;
+}
+
+.btn.btn-primary.me-7:focus {
+    box-shadow: 0 0 0 0 black;
+    background-color: lightseagreen;
+}
+
+
+  
+  

@@ -1,0 +1,28 @@
+.btn.btn-primary.me-3 {
+    background-color: transparent;
+    color: black;
+}
+
+.btn.btn-primary.me-4 {
+    background-color: transparent;
+    color: black;
+}
+
+.btn.btn-primary.me-3:hover {
+    background-color: white;
+}
+
+.btn.btn-primary.me-4:hover {
+    background-color: black;
+}
+
+.btn.btn-primary.me-3:focus {
+    box-shadow: 0 0 0 0 black;
+    background-color: white;
+}
+
+.btn.btn-primary.me-4:focus {
+    box-shadow: 0 0 0 0 black;
+    background-color: black;
+}
+

@@ -1,0 +1,195 @@
+.card-forecast {
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 16px 4px #000000;
+    border-style: groove;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    border-color: black;
+    border-width: 2px;
+    color: white;
+    filter: brightness(120%);
+}
+
+.time-font-forecast {
+    font-size: 20px;
+    color: black;
+}
+
+.sm-font-forecast {
+    font-size: 10px;
+    color: black;
+}
+
+.med-font-forecast {
+    font-size: 10px;
+    color: black;
+}
+
+.large-font-forecast {
+    font-size: 30px;
+    color: black;
+}
+
+@media only screen and (min-width: 960px) {
+    /* styles for browsers larger than 960px; */
+    .time-font-forecast {
+        font-size: 10px;
+        color: black;
+    }
+    
+    .sm-font-forecast {
+        font-size: 8px;
+        color: black;
+    }
+    
+    .med-font-forecast {
+        font-size: 8px;
+        color: black;
+    }
+    
+    .large-font-forecast {
+        font-size: 20px;
+        color: black;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    /* styles for browsers larger than 1440px; */
+    .time-font-forecast {
+        font-size: 15px;
+        color: black;
+    }
+    
+    .sm-font-forecast {
+        font-size: 10px;
+        color: black;
+    }
+    
+    .med-font-forecast {
+        font-size: 10px;
+        color: black;
+    }
+    
+    .large-font-forecast {
+        font-size: 25px;
+        color: black;
+    }
+}
+@media only screen and (min-width: 2000px) {
+    /* for sumo sized (mac) screens */
+    .time-font-forecast {
+        font-size: 15px;
+        color: black;
+    }
+    
+    .sm-font-forecast {
+        font-size: 10px;
+        color: black;
+    }
+    
+    .med-font-forecast {
+        font-size: 10px;
+        color: black;
+    }
+    
+    .large-font-forecast {
+        font-size: 25px;
+        color: black;
+    }
+}
+@media only screen and (max-device-width: 480px) {
+    /* styles for mobile browsers smaller than 480px; (iPhone) */
+    .time-font-forecast {
+        font-size: 10px;
+        color: black;
+    }
+    
+    .sm-font-forecast {
+        font-size: 6px;
+        color: black;
+    }
+    
+    .med-font-forecast {
+        font-size: 6px;
+        color: black;
+    }
+    
+    .large-font-forecast {
+        font-size: 10px;
+        color: black;
+    }
+
+    .mb-4 {
+        font-size: 10px;
+    }
+}
+@media only screen and (device-width: 768px) {
+    /* default iPad screens */
+    .time-font-forecast {
+        font-size: 20px;
+        color: black;
+    }
+    
+    .sm-font-forecast {
+        font-size: 8px;
+        color: black;
+    }
+    
+    .med-font-forecast {
+        font-size: 8px;
+        color: black;
+    }
+    
+    .large-font-forecast {
+        font-size: 20px;
+        color: black;
+    }
+}
+/* different techniques for iPad screening */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1023px) and (orientation:portrait) {
+    /* For portrait layouts only */
+    .time-font-forecast {
+        font-size: 20px;
+        color: black;
+    }
+    
+    .sm-font-forecast {
+        font-size: 10px;
+        color: black;
+    }
+    
+    .med-font-forecast {
+        font-size: 10px;
+        color: black;
+    }
+    
+    .large-font-forecast {
+        font-size: 20px;
+        color: black;
+    }
+}
+
+    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+      /* For landscape layouts only */
+      .time-font-forecast {
+        font-size: 10px;
+        color: black;
+    }
+    
+    .sm-font-forecast {
+        font-size: 8px;
+        color: black;
+    }
+    
+    .med-font-forecast {
+        font-size: 8px;
+        color: black;
+    }
+    
+    .large-font-forecast {
+        font-size: 20px;
+        color: black;
+    }
+}

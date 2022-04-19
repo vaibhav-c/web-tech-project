@@ -1,0 +1,72 @@
+canvas {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: auto;
+    height: 50% !important;
+    width: 70% !important;
+}
+
+
+@media only screen and (min-width: 960px) {
+    /* styles for browsers larger than 960px; */
+    canvas {
+        background-color: rgba(255, 255, 255, 0.8);
+        margin: auto;
+        height: 50% !important;
+        width: 70% !important;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    /* styles for browsers larger than 1440px; */
+    canvas {
+        background-color: rgba(255, 255, 255, 0.8);
+        margin: auto;
+        height: 50% !important;
+        width: 70% !important;
+    }
+}
+@media only screen and (min-width: 2000px) {
+    /* for sumo sized (mac) screens */
+    canvas {
+        background-color: rgba(255, 255, 255, 0.8);
+        margin: auto;
+        height: 50% !important;
+        width: 70% !important;
+    }
+}
+@media only screen and (max-device-width: 480px) {
+    /* styles for mobile browsers smaller than 480px; (iPhone) */
+    canvas {
+        background-color: rgba(255, 255, 255, 0.8);
+        margin: auto;
+        height: 100% !important;
+        width: 95% !important;
+    }
+}
+@media only screen and (device-width: 768px) {
+    /* default iPad screens */
+    canvas {
+        background-color: rgba(255, 255, 255, 0.8);
+        margin: auto;
+        height: 50% !important;
+        width: 70% !important;
+    }
+}
+/* different techniques for iPad screening */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1023px) and (orientation:portrait) {
+    /* For portrait layouts only */
+    canvas {
+        background-color: rgba(255, 255, 255, 0.8);
+        margin: auto;
+        height: 50% !important;
+        width: 70% !important;
+    }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+    canvas {
+        background-color: rgba(255, 255, 255, 0.8);
+        margin: auto;
+        height: 90% !important;
+        width: 100% !important;
+    }
+}

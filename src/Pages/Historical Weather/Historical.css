@@ -1,0 +1,33 @@
+.btn.btn-primary.me-5 {
+    background-color: transparent;
+    color: lightseagreen;
+}
+
+.btn.btn-primary.me-6 {
+    background-color: transparent;
+    color: darkblue;
+}
+
+.btn.btn-primary.me-5:hover {
+    background-color: lightseagreen;
+}
+
+.btn.btn-primary.me-6:hover {
+    background-color: darkblue;
+}
+
+.btn.btn-primary.me-5:focus {
+    box-shadow: 0 0 0 0 darkblue;
+    background-color: lightseagreen;
+}
+
+.btn.btn-primary.me-6:focus {
+    box-shadow: 0 0 0 0 darkblue;
+    background-color: darkblue;
+}
+
+.container1, .container-fluid1, .container1-lg, .container1-md, .container1-sm, .container1-xl, .container1-xxl {
+    width: fit-content;
+    margin-top: 0%!important;
+}
+

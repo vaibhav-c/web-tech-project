@@ -1,0 +1,59 @@
+body {
+    color: wheat;
+    overflow-x: hidden;
+    height: 100%;
+    margin: 'auto';
+    background-color: lightblue;
+    background-repeat: repeat;
+}
+
+.card {
+    background-size: cover;
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 16px 4px #000000;
+    border-style: groove;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-color: black;
+    border-width: 2px;
+    color: white;
+    filter: brightness(120%);
+}
+
+.cardNight {
+    background-size: cover;
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 16px 4px #000000;
+    border-style: groove;
+    margin-top: 20px;
+    border-width: 2px;
+    border-color: white;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.time-font {
+    font-size: 20px;
+    color: black;
+}
+
+.sm-font {
+    font-size: 10px;
+    color: black;
+}
+
+.med-font {
+    font-size: 20px;
+    color: black;
+}
+
+.large-font {
+    font-size: 40px;
+    color: black;
+}
+
+
